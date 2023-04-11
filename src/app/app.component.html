@@ -1,4 +1,13 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
 <app-header [student]="bio"></app-header>
+
+<mat-tab-group mat-stretch-tabs  
+               class="example-stretched-tabs mat-elevation-z4"
+		[ngStyle]="{textAlign: 'center'}">
+    <mat-tab label="All Landings"></mat-tab>
+    <mat-tab label="L6 Reclassification Landings"></mat-tab>
+    <mat-tab label="Landings by Century"></mat-tab>
+</mat-tab-group>
+
 <app-footer [student]="bio"></app-footer>
