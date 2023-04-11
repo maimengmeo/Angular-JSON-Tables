@@ -1,0 +1,107 @@
+{
+  "A4Student" : {
+    "FullName" : "YOUR full name",
+    "SheridanEmail": "YOUR Sheridan email",
+    "SheridanLogin" : "YOUR Sheridan Login",
+    "SheridanID" : "YOUR Sheridan ID"
+  },
+  "landings" : [
+	{	"name":"Aachen",
+		"id":"1",
+		"recclass":"L5",
+		"mass":"21",
+		"year":"1880",
+		"reclat":"50.775000",
+		"reclong":"6.083330"
+	},
+	{	"name":"Bath",
+		"id":"4974",
+		"recclass":"H4",
+		"mass":"21000",
+		"year":"1892",
+		"reclat":"45.416670",
+		"reclong":"-98.316670"
+	},
+	{	"name":"Cranganore",
+		"id":"5465",
+		"recclass":"L6",
+		"mass":"1460",
+		"year":"1917",
+		"reclat":"10.200000",
+		"reclong":"76.266670"
+	},
+	{	"name":"Dresden (Ontario)",
+		"id":"7731",
+		"recclass":"H6",
+		"mass":"47700",
+		"year":"1939",
+		"reclat":"42.520000",
+		"reclong":"-82.260000"
+	},
+	{	"name":"Frankfort (stone)",
+		"id":"10177",
+		"recclass":"Howardite",
+		"mass":"650",
+		"year":"1868",
+		"reclat":"34.483330",
+		"reclong":"-87.833330"
+	},
+	{	"name":"Kitchener",
+		"id":"12326",
+		"recclass":"L6",
+		"mass":"202.6",
+		"year":"1998",
+		"reclat":"43.383330",
+		"reclong":"-80.383330"
+	},
+	{	"name":"Madrid",
+		"id":"15382",
+		"recclass":"L6",
+		"mass":"400",
+		"year":"1896",
+		"reclat":"40.416670",
+		"reclong":"-3.716670"
+	},
+	{	"name":"New Orleans",
+		"id":"16960",
+		"recclass":"H5",
+		"mass":"19256",
+		"year":"2003",
+		"reclat":"29.947180",
+		"reclong":"-90.109760"
+	},
+	{	"name":"San Michele",
+		"id":"31315",
+		"recclass":"L6",
+		"mass":"237",
+		"year":"2002",
+		"reclat":"43.666670",
+		"reclong":"13.000000"
+	},
+	{	"name":"Maribo",
+		"id":"48973",
+		"recclass":"CM2",
+		"mass":"25.81",
+		"year":"2009",
+		"reclat":"54.761830",
+		"reclong":"11.467450"
+	},
+	{	"name":"Santa Barbara",
+		"id":"23161",
+		"recclass":"L4",
+		"mass":"400",
+		"year":"1873",
+		"reclat":"-29.200000",
+		"reclong":"-51.866670"
+	},
+	{	"name":"Salem",
+		"id":"23107",
+		"recclass":"L6",
+		"mass":"61.4",
+		"year":"1981",
+		"reclat":"44.979170",
+		"reclong":"-122.969440"
+	}
+	]
+}
+
