@@ -1,9 +1,9 @@
 {
   "A4Student" : {
-    "FullName" : "YOUR full name",
-    "SheridanEmail": "YOUR Sheridan email",
-    "SheridanLogin" : "YOUR Sheridan Login",
-    "SheridanID" : "YOUR Sheridan ID"
+    "FullName" : "Tuyet Mai Pham",
+    "SheridanEmail": "phamtuye@sheridancollege.ca",
+    "SheridanLogin" : "phamtuye",
+    "SheridanID" : "991545166"
   },
   "landings" : [
 	{	"name":"Aachen",
