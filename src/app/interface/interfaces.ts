@@ -5,7 +5,7 @@ export interface Bio {
     SheridanID: string;
 }
 
-export interface Landing {
+export interface Landings {
     name: string;
     id: string;
     recclass: string;

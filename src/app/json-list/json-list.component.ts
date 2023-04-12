@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { Landings } from '../interface/interfaces';
 
 @Component({
   selector: 'app-json-list',
@@ -6,5 +7,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./json-list.component.css']
 })
 export class JsonListComponent {
+  @Input() landings!: Landings[];
 
+  displayedColumn: string[] = ["id", "name", "mass", "year"];
 }
