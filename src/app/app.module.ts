@@ -9,12 +9,16 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
+import { JsonListComponent } from './json-list/json-list.component';
+import { JsonButtonComponent } from './json-button/json-button.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    JsonListComponent,
+    JsonButtonComponent
   ],
   imports: [
     BrowserModule,
