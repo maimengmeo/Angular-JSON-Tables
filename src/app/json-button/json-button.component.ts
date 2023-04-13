@@ -8,4 +8,25 @@ import { Landings } from '../interface/interfaces';
 })
 export class JsonButtonComponent {
   @Input() landings!: Landings[]; 
+
+  outarea!: string;
+
+  landingsInCentury(century: number) {
+    this.outarea = 
+    `
+    <h4>Meteorite Landings in the ${century}00s</h4>
+    <ul>
+    `;
+
+    for (let x of this.landings) {
+      if (parseInt(x.year) >= century && parseInt(x.year) < century+100) {
+        this.outarea += 
+        `          
+            <li>ID: ${x.id}/ Name: ${x.name}/ Year: ${x.year}</li>
+        `
+      }
+    }
+
+    this.outarea += `</ul>`
+  }
 }

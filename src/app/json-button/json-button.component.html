@@ -1,1 +1,9 @@
-<p>json-button works!</p>
+<button mat-fab color="primary" (click)="landingsInCentury(1800)">1800s</button>
+<button mat-fab color="primary" (click)="landingsInCentury(1900)">1900s</button>
+<button mat-fab color="primary" (click)="landingsInCentury(2000)">2000</button>
+
+<hr>
+
+<div [ngStyle]="{'text-align': 'left'}">
+    <p [innerHTML]="outarea"></p>
+</div>
