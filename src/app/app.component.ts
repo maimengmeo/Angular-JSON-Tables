@@ -11,5 +11,5 @@ export class AppComponent {
   title = 'A4phamtuye';
 
   bio: Bio = data.A4Student;
-  landing: Landings[] = data.landings;
+  landings: Landings[] = data.landings;
 }
