@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { Landings } from '../interface/interfaces';
 
 @Component({
   selector: 'app-json-button',
@@ -6,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./json-button.component.css']
 })
 export class JsonButtonComponent {
-
+  @Input() landings!: Landings[]; 
 }

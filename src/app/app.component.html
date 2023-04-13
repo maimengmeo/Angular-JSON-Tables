@@ -29,7 +29,9 @@
       </table>
     </mat-tab>
     
-    <mat-tab label="Landings by Century"></mat-tab>
+    <mat-tab label="Landings by Century">
+      <app-json-button [landings]="landings"></app-json-button>
+    </mat-tab>
 </mat-tab-group>
 
 <app-footer [student]="bio"></app-footer>
