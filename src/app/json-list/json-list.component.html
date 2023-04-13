@@ -1,1 +1,29 @@
+<table mat-table [dataSource]="landings" class="mat-elevation-z8">
+    
+    <ng-container matColumnDef="id"> 
+    <th mat-header-cell *matHeaderCellDef>ID</th>
+    <td mat-cell *matCellDef="let x"> {{x.id}} </td>
+    </ng-container>
+    
+    <ng-container matColumnDef="name"> 
+    <th mat-header-cell *matHeaderCellDef>NAME</th>
+    <td mat-cell *matCellDef="let x"> {{x.name}} </td>
+    </ng-container>
 
+    <ng-container matColumnDef="mass"> 
+    <th mat-header-cell *matHeaderCellDef>MASS</th>
+    <td mat-cell *matCellDef="let x"> {{x.mass}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="year"> 
+    <th mat-header-cell *matHeaderCellDef>YEAR</th>
+    <td mat-cell *matCellDef="let x"> {{x.year}} </td>
+    </ng-container>
+
+
+      
+      <!-- Include other rows -->
+      
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr> <!-- Declar var in .ts -->
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+  </table>

@@ -9,5 +9,5 @@ import { Landings } from '../interface/interfaces';
 export class JsonListComponent {
   @Input() landings!: Landings[];
 
-  displayedColumn: string[] = ["id", "name", "mass", "year"];
+  displayedColumns: string[] = ["id", "name", "mass", "year"];
 }
