@@ -18,15 +18,13 @@
           <th>Longtitude (reclong)</th>
         </thead>
 
-        <ng-container *ngFor="let x of landings">
-          <ng-container *ngIf="(x.recclass) === 'L6'">
-            <tr>
+        <tbody *ngFor="let x of landings">
+            <tr *ngIf="(x.recclass) === 'L6'">
               <td>{{x.name}}</td>
               <td>{{x.reclat | number: '1.4-4'}}</td>
               <td>{{x.reclong | number: '1.4-4'}}</td>
             </tr>
-          </ng-container>
-        </ng-container>       
+        </tbody>       
 
       </table>
     </mat-tab>
