@@ -1,4 +1,4 @@
-<h3>
+<h3 [ngStyle]="{'text-align': 'center', 'color': 'white', 'background-color': 'crimson'}">
     Data current as of {{date | date: 'long'}} <br>
-    ID: {{student.SheridanID}}/ LOGIN: {{student.SheridanLogin}}
+    ID: <em>{{student.SheridanID}}</em>/ LOGIN: <em>{{student.SheridanLogin}}</em>
 </h3>
